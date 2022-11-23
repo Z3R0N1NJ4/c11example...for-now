@@ -20,3 +20,8 @@ function clr(){
 function del(){
   result.value = result.value.slice(0, -1);
 }
+
+function inputext(){
+
+}
+
