@@ -118,7 +118,7 @@ button:hover{
 @media only screen and (max-width: 301px) {
 
     .calc{
-      margin-right: 25%;
+      margin-right: 3%;
       padding: 16px;
       display: grid;
       grid-template-columns: repeat(4, 50px);
@@ -146,11 +146,13 @@ button:hover{
       width: 45px;
       height: 40px;
       opacity: .77;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .equal{
-      box-shadow: inset 4px 4px 10px #fff,
+      color: whitesmoke;
+      background-color: #e09d16;
+      box-shadow: 
                    4px 4px 10px rgba(0,0,0,.40);
       border-radius: 10px;
       border: none;
@@ -160,7 +162,9 @@ button:hover{
     }
     
     .clearall{
-      box-shadow: inset 4px 4px 10px #fff,
+      color: whitesmoke;
+      background-color: #e09d16;
+      box-shadow: 
                    4px 4px 10px rgba(0,0,0,.40);
       border-radius: 10px;
       border: none;
@@ -169,4 +173,9 @@ button:hover{
       height: 40px;
       grid-column: span 2;
     }  
+  }
+
+  .del{
+    color: whitesmoke;
+    background-color: #e09d16;
   }
