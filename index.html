@@ -12,25 +12,25 @@
 
     <div class="container">
       <div class="calc">
-        <input type="text" id="inputext" placeholder="0">
-        <button class="clearall" onclick="clr()">CL</button>
-        <button onclick="del()">DEL</button>
-        <button onclick="calculate('/')">/</button>
-        <button onclick="calculate(7)">7</button>
-        <button onclick="calculate(8)">8</button>
-        <button onclick="calculate(9)">9</button>
-        <button onclick="calculate('*')">*</button>
-        <button onclick="calculate(4)">4</button>
-        <button onclick="calculate(5)">5</button>
-        <button onclick="calculate(6)">6</button>
-        <button onclick="calculate('-')">-</button>
-        <button onclick="calculate(1)">1</button>
-        <button onclick="calculate(2)">2</button>
-        <button onclick="calculate(3)">3</button>
-        <button onclick="calculate('+')">+</button>
-        <button onclick="calculate('.')">.</button>
-        <button onclick="calculate(0)">0</button>
-        <button class="equal" onclick="Result()">=</button>
+        <input type="text" id="input" placeholder="0">
+        <button class="clearall" onclick="clearSum()">CLEAR</button>
+        <button class="del" onclick="deleteNumber()">DEL</button>
+        <button onclick="addToSum('/')">/</button>
+        <button onclick="addToSum(1)">1</button>
+        <button onclick="addToSum(2)">2</button>
+        <button onclick="addToSum(3)">3</button>
+        <button onclick="addToSum('*')">*</button>
+        <button onclick="addToSum(4)">4</button>
+        <button onclick="addToSum(5)">5</button>
+        <button onclick="addToSum(6)">6</button>
+        <button onclick="addToSum('-')">-</button>
+        <button onclick="addToSum(7)">7</button>
+        <button onclick="addToSum(8)">8</button>
+        <button onclick="addToSum(9)">9</button>
+        <button onclick="addToSum('+')">+</button>
+        <button class="point" onclick="addToSum('.')">.</button>
+        <button onclick="addToSum(0)">0</button>
+        <button class="equal" onclick="EvaluateSum()">=</button>
       </div>
 
     </div>

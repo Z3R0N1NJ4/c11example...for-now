@@ -1,27 +1,27 @@
-let result = document.getElementById("inputext");
 
-let calculate = (number) => {
-  result.value = result.value + number;
+let evaluateSum = document.getElementById("input");
+
+let addToSum = (number) => {
+  evaluateSum.value = evaluateSum.value + number;
 }
 
-let Result = () => {
+let EvaluateSum = () => {
   try {
-    result.value = eval(result.value)
+    evaluateSum.value = eval(evaluateSum.value);
   }
-  catch(err){
-    alert("Enter the valid Input");
+  catch (err) {
+    alert("Enter a valid Input");
   }
 }
-
-function clr(){
-  result.value = " ";
+  
+function clearSum () {
+  evaluateSum.value = " ";
 }
 
-function del(){
-  result.value = result.value.slice(0, -1);
+function deleteNumber () {
+  evaluateSum.value = evaluateSum.value.slice(0, -1);
 }
 
-function inputext(){
 
-}
+
 
