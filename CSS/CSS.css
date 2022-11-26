@@ -118,7 +118,7 @@ button:hover{
 @media only screen and (max-width: 301px) {
 
     .calc{
-      margin: auto;
+      margin-right: 30%;
       padding: 16px;
       display: grid;
       grid-template-columns: repeat(4, 50px);
