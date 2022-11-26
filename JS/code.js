@@ -14,8 +14,6 @@ let EvaluateSum = () => {
   }
 }
 
-let AddToSum = false;
-  
 function clearSum () {
   evaluateSum.value = " ";
 }
@@ -23,6 +21,9 @@ function clearSum () {
 function deleteNumber () {
   evaluateSum.value = evaluateSum.value.slice(0, -1);
 }
+
+
+
 
 
 
