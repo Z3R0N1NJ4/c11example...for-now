@@ -13,6 +13,8 @@ let EvaluateSum = () => {
     alert("Enter a valid Input");
   }
 }
+
+let AddToSum = false;
   
 function clearSum () {
   evaluateSum.value = " ";
